@@ -130,7 +130,7 @@ img {
     display: block ;
     padding: 120px 0;
 }
-.section-section-two{
+.container-section-two{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,6 +139,7 @@ img {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    background-image: url(../images/icon.svg/Vectorsection10.svg), url(../images/icon.svg/Vectorsection11.svg);
 }
 .visually-hidden {
     position: absolute;
