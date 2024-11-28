@@ -1,10 +1,8 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+
+h1, h2, h3, ul, p {
     margin: 0;
     padding: 0;
-}
+} 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -14,7 +12,10 @@ img {
     display: block;
 }
 ul {
-    list-style: none;
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
 }
 a {
     text-decoration: none;
@@ -26,17 +27,18 @@ a {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     display: flex;
 }
-.navbar {
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
-.navbar-container {
+.navbar-container.container {
     display: flex;
 }
 
@@ -186,7 +188,7 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section-one-li .seciton-one-div {
+.section-one-li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,6 +197,9 @@ a {
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid #8e8f99;
+    width: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: row;
 }
 .visually-hidden {
     position: absolute;
@@ -214,10 +219,6 @@ a {
     gap: 24px;
 }
 
-.section-one-li {
-    width: calc((100% - 72px) / 4)
-}
-
 .section-one-title {
     font-weight: 500;
     font-size: 20px;
@@ -225,6 +226,8 @@ a {
     letter-spacing: 0.02em;
     color:#2e2f42;
     margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
 }
 
 .section-one-text {
@@ -251,7 +254,7 @@ a {
     color:#2e2f42;
     margin-bottom: 72px;
 }
-.section-two-div {
+.section-two-li-div {
     padding: 32px 0;
 }
 .section-two-ul {
