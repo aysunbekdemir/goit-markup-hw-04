@@ -166,7 +166,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.section-one-li .section-one-svg-container {
+.section-one-li .seciton-one-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +189,7 @@
     overflow: hidden;
 }
 
-.section-one ul {
+.section-one-ul {
     display: flex;
     gap: 24px;
 }
