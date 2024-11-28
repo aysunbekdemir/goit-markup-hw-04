@@ -1,26 +1,4 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-ul {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
+
 /* TOP LİNE */
 .top-line {
     height: 72px;
@@ -64,12 +42,8 @@ li {
 .link-studio {
     color: #404bbf;
     position: relative;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
 }
-.link::after ::before {
+.link::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -88,12 +62,10 @@ li {
     display: block;
     gap: 40px;
 }
-
 .link:hover,
 .link:focus {
     color: #404bbf;
 }
-
 .adress-tel {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -363,7 +335,7 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#f4f4fd;
+    color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
